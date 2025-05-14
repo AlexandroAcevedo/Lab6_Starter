@@ -101,7 +101,7 @@ function initFormHandler() {
 		form.reset();
 	})	
 		//B10
-		const clearButton = document.getElementById('clear-storage');
+		const clearButton = document.querySelector('button.danger');
 
 		//B11
 		clearButton.addEventListener('click', () =>{
